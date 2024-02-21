@@ -1,22 +1,31 @@
-<!DOCTYP html>
-<html lang ="de">
-<head>
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <meta charset = "UTF-8">
-   <meta name="viewport" content="width-device-width, inital-scale=1.0">
-   <title> 1. Lernkontrolle IKT </title>
-</head>
-<body>
-   <header>
-      <h1> Lernkontrolle IKT SoSe 22/23 </h1>
-   </header>
-   <nav>
-      <a href="liste.html"> Liste </a> <br>
-      <a href="bilder.html"> Bilder und Videos </a> <br>
-      <a href="tabellen.html"> Tabellen </a>
-   </nav>
-   <main id="contact_box">
-      <p> Vorname Nachname <br> Schülerin der BHAKWien22 <br> Klasse </p>
-   </main>
-</body>
+<!DOCTYPE html>
+<html lang-"de">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, inital-scale=1.0">
+   <title>
+    Einführung Teil 2
+   </title>
+  </head>
+
+  <body>
+     <header>
+       <h1 style="font-size:10vw"> Hello World! </h1>
+     </header>
+     <article> 
+        <img src="am.jpg"  style="max-width:100%;hight:auto">
+        <!--Da sist ein Kommentar, der nicht angezeigt wird und uns hilft den Code zu verstehen. -->
+        <!--Damit Bilder auf verschiedene Endgeräten richtig angezeigt werden, kann es sinnvol sein Bilder in unterschiedlichen Größen zur Verfügung zu stellen. Dazu dient der picture-Tag. -->
+      <picture>
+        <source srecset="img_smallversion.jpg" media="(max-width:600px)">
+        <source srecset="img_normalversion.jpg" media="(max-width:1500px)">
+        <source srecset="img_largeversion.jpg">
+        <img scr="img_normalversion.jpg" alt="Bild">
+      </picture>
+     </article>
+   
+ 
+  </body>
+
+
 </html>
